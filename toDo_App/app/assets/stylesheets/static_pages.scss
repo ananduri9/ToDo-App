@@ -1,0 +1,59 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.welcome {
+	text-align: center;
+}
+
+input, textarea, select, .uneditable-input {
+  border: 3px solid #bbb;
+  width: 19%;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+input {
+	border-radius: 5px;
+}
+
+.head {
+	font-size: 100px;
+	vertical-align: middle;
+}
+
+.btn {
+  width: 13%;
+}
+
+.bottomRow {
+	cursor: pointer;
+	color: blue;
+	text-align: center;
+	display: block;
+}
+
+span {
+	padding: 6px;
+}
+
+span:hover {
+	text-decoration: underline;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  height: auto !important;
+}
+
+footer {
+	position: fixed;
+	text-align: center;
+	height: 100px;
+	bottom: 0;
+	left: 47%;
+	width: 100%;
+}

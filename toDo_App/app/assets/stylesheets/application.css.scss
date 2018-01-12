@@ -1,0 +1,225 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+#todo {
+	margin-right: 45px;
+}
+
+#noteitem {
+	margin-left: 30px;
+}
+
+#deadline {
+	margin-right: 15px;
+}
+
+#delete {
+	margin-right: 36px;
+}
+
+.front {
+	padding-top: 30px;
+}
+
+h4 {
+	text-align: center;
+	font-size: 23px;
+}
+
+ .reactRouterList {
+ 	display: inline-block;
+ 	margin: 10px;
+ 	margin-left: 27px;
+ }
+
+ .active {
+ 	font-weight: bold;
+ }
+
+ .activeList {
+   	display: inline;
+ 	padding: 10px;
+ }
+
+.center {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 25px;
+
+	li {
+		cursor: pointer;
+	}
+}
+
+.itemType {
+	display: inline-block;
+	text-align: center;
+	list-style-type: none;
+}
+
+.itemType > li {
+	display: inline;
+	padding: 7px;
+}
+
+
+.head {
+	position: absolute;
+	left: 18%;
+	top: 5%;
+	font-size: 40px;
+	text-decoration: none;
+}
+
+header {
+	height: 8%;
+}
+
+.flash {
+	position: absolute;
+	top: 10%;
+}
+
+.navbar-right {
+	margin-top: 15px;
+}
+
+.welcome {
+	text-align: center;
+}
+
+input, textarea, select, .uneditable-input {
+  border: 3px solid #bbb;
+  width: 19%;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+input {
+	border-radius: 5px;
+}
+
+.bttn-delete {
+  padding-top: 3px;
+  padding-right: 50px;
+  width: 13%;
+}
+
+
+.btn {
+  padding-top: 10px;
+  width: 13%;
+}
+
+
+#error_explanation {
+  color: red;
+  ul {
+    color: red;
+    margin: 0 0 0 0;
+  }
+}
+
+.field_with_errors {
+  @extend .has-error;
+  .form-control {
+    color: $state-danger-text;
+  }
+}
+
+.bottomRow {
+	padding-top: 20px;
+	cursor: pointer;
+	color: blue;
+	text-align: center;
+	display: block;
+}
+
+span {
+	padding: 6px;
+}
+
+span:hover {
+	text-decoration: underline;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  height: auto !important;
+}
+
+input[type="checkbox"]{
+  margin-top: 23px;
+  width: auto;
+  height: auto;
+  margin-left: 60px;
+}
+
+.todoitem {
+	display: flex;
+	justify-content: space-between;
+	border-style: solid;
+	border-color: #ADD8E6;
+	border-radius: 7px;
+	height: auto;
+}
+
+.listitem {
+	margin-top: 15px;
+	font-size: 15px;
+}
+
+.first {
+	font-weight: bold;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	list-style-type: none;
+}
+
+.listheader {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 30px;
+}
+
+#todoelt {
+	margin-left: 27px;
+}
+
+.buttonWrap {
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.bottom {
+	margin-bottom: 100px;
+}
+
+footer {
+	position: fixed;
+	height: 50px;
+	left: 47%;
+	bottom: 0;
+	width: 100%;
+}
